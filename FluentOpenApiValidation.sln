@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentOpenApiValidation", "src\FluentOpenApiValidation\FluentOpenApiValidation.csproj", "{BDD2D1BC-055B-4145-B33C-677117ABBCC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentOpenApiTest", "src\FluentOpenApiValidation.Tests\FluentOpenApiTest.csproj", "{B1B3FDA6-0430-4A01-BC78-158F91440E5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentOpenApiTest", "src\FluentOpenApiValidation.Tests\FluentOpenApiTest.csproj", "{B1B3FDA6-0430-4A01-BC78-158F91440E5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -4,25 +4,14 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-
-    <IsPackable>false</IsPackable>
-    <IsTestProject>true</IsTestProject>
-    <Title>FluentOpenApiValidation</Title>
+    <Title>FluentOpenApiValidation is a .NET library for building validation for OpenApi specification</Title>
     <Authors>Daniel Manga</Authors>
     <Company>Daniel Manga</Company>
     <Description>FluentOpenApiValidation is a .NET library for building validation for OpenApi specification</Description>
     <Version>1.0.0</Version>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/Danielmat/FluentOpenApiValidation</RepositoryUrl>
+    <PackageTags>fluent,validation,openapi</PackageTags>
+    <OutputType>Library</OutputType>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="coverlet.collector" Version="6.0.0" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
-    <PackageReference Include="xunit" Version="2.5.3" />
-    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Using Include="Xunit" />
-  </ItemGroup>
-
 </Project>
