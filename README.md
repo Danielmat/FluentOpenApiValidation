@@ -16,7 +16,7 @@ dotnet add package FluentOpenApiValidation
 ```csharp
 using FluentOpenApiValidation;
 
- IContract contrat =
+ IContract contract =
       ContractBuilder
      .WithFileSource(FilePath.PATH)
         .WithPath("/pet/findByStatus")
@@ -34,7 +34,7 @@ using FluentOpenApiValidation;
                .WillSchema(new("Pet", [new("name", PropertyType.String)]))
        .Build();
 
- bool result = contrat.Validate();
+ bool result = contract.Validate();
 
  contrat.Errors.ForEach(i => Console.WriteLine("{0}\t", i));
 ```
