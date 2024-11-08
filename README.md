@@ -36,7 +36,7 @@ using FluentOpenApiValidation;
 
  bool result = contract.Validate();
 
- contrat.Errors.ForEach(i => Console.WriteLine("{0}\t", i));
+ contract.Errors.ForEach(i => Console.WriteLine("{0}\t", i));
 ```
 
 ### License, Copyright etc
