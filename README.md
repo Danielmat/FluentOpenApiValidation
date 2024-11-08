@@ -5,7 +5,7 @@ FluentOpenApiValidation is a .NET library for building  validation for OpenApi s
 
 ### Get Started
 
-FluentValidation can be installed using the Nuget package manager or the `dotnet` CLI.
+FluentOpenApiValidation can be installed using the Nuget package manager or the `dotnet` CLI.
 
 ```
 dotnet add package FluentOpenApiValidation
